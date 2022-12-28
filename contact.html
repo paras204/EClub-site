@@ -34,20 +34,27 @@
         <style>
                 body {
                 height: 100%;
-                background-color: #0d0f11;
-                background-image: url('assets/images/bg/61.jpg');
-                background-repeat: no-repeat;
+                background-color: #000000;
+                /* background-repeat: no-repeat;
                 background-attachment: fixed;
-                background-position: center;
+                background-position: center; */
                 }
-                </style>
+                body::before{
+                    content: "";
+                    background: url('assets/images/bg/components.jpg') no-repeat center center/cover;
+                    position: absolute;
+                    background-attachment: fixed;
+                    top: 0px;
+                    left: 0px;
+                    height: 131%;
+                    width: 100%;
+                    z-index: -1;
+                    opacity: 0.2;
+                }
+        </style>
     </head>
     <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
 
-        <!-- header-area start -->
         <!-- header-area start -->
         <header class="header-area" id="sticky-header">
                 <div class="container">
@@ -69,21 +76,20 @@
                                     <div class="col-md-9 hidden-sm hidden-xs">
                                         <div class="mainmenu text-right">
                                             <ul id="navigation">
-                                                <li ><a href="index.html">HOME</a>
-                                                   
+                                                <li >
+                                                    <a href="index.html">HOME</a>
                                                 </li>
-                                                <li><a href="projects.html">Projects</a>
-                                                    
+                                                <li>
+                                                    <a href="projects.html">Projects</a>
                                                 </li>
-                                                <li ><a href="gallery.html">Gallery</a>
-                                                  
+                                                <li >
+                                                    <a href="gallery.html">Gallery</a>
                                                 </li>
-                                                <li><a href="database.html">Database</a>
-                                                   
-                                                </li>
-                                                
-                                                <li><a href="team.html">Team</a>
-                                                    
+                                                <li>
+                                                    <a href="database.html">Database</a>
+                                                </li> 
+                                                <li>
+                                                    <a href="team.html">Team</a>
                                                 </li>
                                                 <li class="active"><a href="contact.html">Get Components</a></li>
                                             </ul>
@@ -123,18 +129,15 @@
             </style> -->
             <!-- <div class="breadcumb-area"> -->
                     <div class="iframe-container1">
-                            <b> <h2>Get Components</h2></b>
-                            
-                        <p >You can get components from electronics club by filling out the form given below.</p>
-             
-                        </div>
+                        <b> <h2>Get Components</h2></b>
+                        <p >You can get all of your required components from Electronics Club by filling out the form given below.</p>
+                    </div>
                 <!-- </div> -->
                         <!-- <div id = form2 style="align-self: center;"> -->
                     <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd12My03qpDm3c4fTnFmKKzGcGl5-pBo6DfQqzr_SQbMmQT6Q/viewform?embedded=true" width="100%" height="1700" frameborder="0" marginheight="0" marginwidth="0" >Loading...</iframe> -->
                     <div class="iframe-container">
-                       
-                            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd12My03qpDm3c4fTnFmKKzGcGl5-pBo6DfQqzr_SQbMmQT6Q/viewform?embedded=true"  >Loading...</iframe>
-                        </div>
+                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScAD55IJr8rVdidT1UFYuFr6hlDUGzxv_7BvlwKnHJr3dZ5vQ/viewform?embedded=true" width="640" height="1217" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                    </div>
                 <!-- </div> -->
            
 
